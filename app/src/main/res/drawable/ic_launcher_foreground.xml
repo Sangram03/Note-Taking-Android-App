@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Glowing Background Blue/Cyan Aura -->
+    <path
+        android:fillColor="#226366F1"
+        android:pathData="M54,54m-38,0a38,38 0 1,1 76,0a38,38 0 1,1 -76,0" />
+
+    <path
+        android:fillColor="#15D4FF1A"
+        android:pathData="M54,54m-24,0a24,24 0 1,1 48,0a24,24 0 1,1 -48,0" />
+
+    <!-- Outer Tech Scope Arc 1 -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#4A6366F1"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M54,20 A34,34 0 0,1 88,54" />
+
+    <!-- Outer Tech Scope Arc 2 -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#4A6366F1"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M54,88 A34,34 0 0,1 20,54" />
+
+    <!-- Tilted Orbits (Prediction Vectors) -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#80D4FF1A"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:pathData="M24,34 C30,22 78,22 84,34 C90,46 42,86 24,34 Z" />
+        
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#80D4FF1A"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:pathData="M84,74 C78,86 30,86 24,74 C18,62 66,22 84,74 Z" />
+
+    <!-- Central Floating Neural Core (3D Diamond/Hexagon structure) -->
+    <!-- Front Face (Neon Lime Glow) -->
+    <path
+        android:fillColor="#D4FF1A"
+        android:pathData="M54,30 L74,54 L54,78 L34,54 Z" />
+
+    <!-- Core Inner Tech Inlay (Dark Indigo overlay for depth) -->
+    <path
+        android:fillColor="#0F111A"
+        android:pathData="M54,38 L67,54 L54,70 L41,54 Z" />
+
+    <!-- Core Inner Spark (Bright White/Lime light) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,46 L60,54 L54,62 L48,54 Z" />
+
+    <!-- Radar Crosshairs (Crosshairs intersecting the core) -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#D4FF1A"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:pathData="M54,12 L54,22" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#D4FF1A"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:pathData="M54,86 L54,96" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#D4FF1A"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:pathData="M12,54 L22,54" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#D4FF1A"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:pathData="M86,54 L96,54" />
+
+    <!-- AI Sparkle 1 (Large Flare at Top Right) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M82,22l2.5,6.5l6.5,2.5l-6.5,2.5l-2.5,6.5l-2.5,-6.5l-6.5,-2.5l6.5,-2.5z" />
+
+    <!-- AI Sparkle 2 (Small Flare at Bottom Left) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M26,76l1.5,3.5l3.5,1.5l-3.5,1.5l-1.5,3.5l-1.5,-3.5l-3.5,-1.5l3.5,-1.5z" />
+
+</vector>
